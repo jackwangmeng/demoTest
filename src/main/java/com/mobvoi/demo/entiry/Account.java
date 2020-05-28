@@ -73,4 +73,17 @@ public class Account {
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", accountName='" + accountName + '\'' +
+                ", amount=" + amount +
+                ", type=" + type +
+                ", isLock=" + isLock +
+                ", createdAt=" + createdAt +
+                ", updatedAt=" + updatedAt +
+                '}';
+    }
 }

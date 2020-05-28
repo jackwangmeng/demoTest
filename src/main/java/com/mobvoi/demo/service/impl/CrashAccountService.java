@@ -4,7 +4,11 @@ import com.mobvoi.demo.mapper.AccountMapper;
 import com.mobvoi.demo.service.AccountService;
 import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.annotation.Resource;
 
 /**
  * @author baixiangzhu
@@ -13,12 +17,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class CrashAccountService implements AccountService {
 
-  @Autowired
+  @Resource
   private AccountMapper accountMapper;
 
   @Override
   public BigDecimal getAccountFromType(Integer type) {
     //TODO：希望实现
-    return accountMapper.selectByPrimaryKey(1).getAmount();
+    return accountMapper.selectByPrimaryKey(type).getAmount();
   }
 }

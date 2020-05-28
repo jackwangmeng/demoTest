@@ -1,8 +1,10 @@
 package com.mobvoi.demo.mapper;
 
 import com.mobvoi.demo.entiry.Account;
-
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
+@Mapper
 public interface AccountMapper {
 
-  Account selectByPrimaryKey(Integer id);
+  public  Account selectByPrimaryKey(Integer id);
 }
