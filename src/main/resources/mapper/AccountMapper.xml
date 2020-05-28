@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mobvoi.demo.mapper.AccountMapper">
+  <resultMap id="BaseResultMap" type="com.mobvoi.demo.entiry.Account">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="account_name" jdbcType="VARCHAR" property="accountName" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="is_lock" jdbcType="BIT" property="isLock" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, account_name, amount, type, is_lock, created_at, updated_at
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from account
+    where id = ${id,jdbcType=INTEGER}
+  </select>
+</mapper>
