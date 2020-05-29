@@ -18,6 +18,16 @@ public class Account {
 
     private Date updatedAt;
 
+    private String password;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -81,6 +91,7 @@ public class Account {
                 ", accountName='" + accountName + '\'' +
                 ", amount=" + amount +
                 ", type=" + type +
+                ", password=" + password +
                 ", isLock=" + isLock +
                 ", createdAt=" + createdAt +
                 ", updatedAt=" + updatedAt +

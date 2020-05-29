@@ -8,11 +8,12 @@
     <result column="amount" jdbcType="DECIMAL" property="amount" />
     <result column="type" jdbcType="INTEGER" property="type" />
     <result column="is_lock" jdbcType="BIT" property="isLock" />
-    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
-    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="created_at" jdbcType="DATE" property="createdAt" />
+    <result column="updated_at" jdbcType="DATE" property="updatedAt" />
+      <result column="password" jdbcType="VARCHAR" property="password" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, account_name, amount, type, is_lock, created_at, updated_at
+    id, account_name, amount, type, is_lock, created_at, updated_at,password
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select
@@ -20,4 +21,36 @@
     from account
         where id = #{id,jdbcType=INTEGER}
   </select>
+<!--查询是只按照type查询，只返回金额，而现实中需要与账户相对性，所以次啊用返回值为Accout
+  <select id="getAccountFromType" resultType="BigDecimal">
+    select amount from account
+    where type = #{type,jdbcType=INTEGER}
+  </select>-->
+
+  <select id="getAccountFromType" resultType="Account">
+    select
+        <include refid="Base_Column_List"/>
+     from account
+         where type = #{type,jdbcType=INTEGER}
+  </select>
+
+    <select id="permitValidator" resultType="Account">
+        select
+        <include refid="Base_Column_List"/>
+        from account
+        where account_name = #{accountName,jdbcType=VARCHAR} and password = #{password,jdbcType=VARCHAR}
+    </select>
+
+    <select id="findAllUser" resultType="Account">
+        select
+        <include refid="Base_Column_List"/>
+        from account
+        where  id !=#{id,jdbcType=INTEGER}
+    </select>
+
+    <update id="updateAccount" parameterType="com.mobvoi.demo.entiry.Account">
+	    update account set
+	        amount=#{amount},updated_at=#{updatedAt}
+        where id=#{id,jdbcType=INTEGER}
+	</update>
 </mapper>

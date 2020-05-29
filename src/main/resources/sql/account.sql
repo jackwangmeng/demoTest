@@ -6,5 +6,6 @@ CREATE TABLE `account` (
   `is_lock` bit(1) NOT NULL DEFAULT b'1' COMMENT '账户锁定',
   `created_at` datetime NOT NULL,
   `updated_at` datetime DEFAULT NULL,
+  `password` int(6) NOT NULL ,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
