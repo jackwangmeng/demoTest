@@ -18,6 +18,7 @@ a)在测试selectByPrimaryKey方法时，mybatis报-因为 accessExternalDTD 属
 	b)添加了CommonResult方法，用于测试时候，打印数据
 	c)添加了热部署devtools和lombok组件
 	d)修改了sql文件，sql文件少了type属性
+	e)为了更好的测试，我添加了thymleaf框架，用于测试。登陆账号是account_name，密码是自己添加的新字段。
 5. 在你修改完后，希望把项目变更同步到GitHub上，展示给我们
 
 
