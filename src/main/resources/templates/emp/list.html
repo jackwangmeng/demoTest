@@ -58,7 +58,7 @@
 									<td th:text="${account.id}"></td>
 									<td th:text="${account.accountName}"></td>
 									<td th:text="${account.amount}"></td>
-									<td th:text="${account.type}=='0'?'个人用户':'企业用户'"></td>
+									<td th:text="${account.type}=='1'?'个人用户':'企业用户'"></td><!--测试，只采用了两种类型-->
 									<td th:text="${#dates.format(account.createdAt,'yyyy-MM-dd HH:mm')}"></td>
 									<td th:text="${#dates.format(account.updatedAt,'yyyy-MM-dd HH:mm')}"></td>
 									<td>
