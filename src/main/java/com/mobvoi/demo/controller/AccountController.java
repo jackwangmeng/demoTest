@@ -62,10 +62,12 @@ public class AccountController {
   @GetMapping("/pointToAccount")
   public String  list(Model model, HttpServletRequest request){
      Object object = request.getSession().getAttribute("loginUserId");
+     Account loginUser = pointAccountService.findOne((Integer) object);
     Collection<Account> accounts = pointAccountService.findAllUser((Integer) object);
 
     //放在请求域中
     model.addAttribute("accounts",accounts);
+    model.addAttribute("loginAmount","，账户余额："+loginUser.getAmount());
     return "emp/list";
   }
 
@@ -99,6 +101,6 @@ public class AccountController {
 
       pointAccountService.translate(accountFrom,accountTo,amount);
     }
-    return "emp/list";
+    return "redirect:/pointToAccount";
   }
 }
