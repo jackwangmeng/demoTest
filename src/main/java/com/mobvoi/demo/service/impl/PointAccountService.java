@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
+import java.sql.SQLException;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
@@ -52,23 +53,18 @@ public class PointAccountService implements AccountService {
   }
 
   @Override
+  @Transactional(rollbackFor = Exception.class)
   public void translate(Account accountFrom, Account accountTo, BigDecimal amount) {
 
     try {
       accountFrom.setAmount(accountFrom.getAmount().subtract(amount));
       accountFrom.setUpdatedAt(new Date());
-      try {
-        accountMapper.updateAccount(accountFrom);
-      } catch (Exception e) {
-        throw new RuntimeException("数据库操作异常");
-      }
+      accountMapper.updateAccount(accountFrom);
+      /*测试使用
+      int i = 1 / 0;*/
       accountTo.setAmount(accountTo.getAmount().add(amount));
       accountTo.setUpdatedAt(new Date());
-      try {
-        accountMapper.updateAccount(accountTo);
-      } catch (Exception e) {
-        throw new RuntimeException("数据库操作异常");
-      }
+      accountMapper.updateAccount(accountTo);
     } catch (Exception e) {
       throw new RuntimeException("操作失败");
     }

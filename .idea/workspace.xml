@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13239641-4dbb-4a1a-8d10-0ae3a6d7bf4a" name="Default Changelist" comment="" />
+    <list default="true" id="13239641-4dbb-4a1a-8d10-0ae3a6d7bf4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mobvoi/demo/service/impl/PointAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mobvoi/demo/service/impl/PointAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/entiry/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/entiry/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/mapper/AccountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/service/impl/CrashAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mobvoi/demo/service/impl/PointAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mybatis-generator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql/account.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql/demo.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/img/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/feather.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/jquery-3.2.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/commons/bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/emp/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/emp/transfer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/4xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/5xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mobvoi/demo/DemoApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,31 +100,36 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/error" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mybatis" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java\learning\demoTest\src\main\resources\templates\error" />
-      <recent name="F:\java\learning\demoTest\src\main\java\com\mobvoi\demo" />
-      <recent name="F:\java\learning\demoTest\src\main\resources\static" />
-      <recent name="F:\java\learning\demoTest\src\main\resources\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\learning\demoTest\src\main\resources\mybatis" />
       <recent name="F:\java\learning\demoTest\src\main\resources" />
+      <recent name="F:\java\learning\demoTest\src\main\resources\mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mobvoi.demo.mapper" />
+      <recent name="com.mobvoi.demo.service.config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mobvoi.demo.controller" />
       <recent name="com.mobvoi.demo.entiry" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\java\learning\demoTest\src\main\resources\mybatis" />
-      <recent name="F:\java\learning\demoTest\src\main\resources" />
-      <recent name="F:\java\learning\demoTest\src\main\resources\mapper" />
+      <recent name="F:\java\learning\demoTest\src\main\java\com\mobvoi\demo" />
+      <recent name="F:\java\learning\demoTest\src\main\resources\templates\error" />
+      <recent name="F:\java\learning\demoTest\src\main\resources\static" />
+      <recent name="F:\java\learning\demoTest\src\main\resources\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,6 +167,7 @@
       <workItem from="1590800037291" duration="190000" />
       <workItem from="1590983617735" duration="5331000" />
       <workItem from="1591074577855" duration="1219000" />
+      <workItem from="1591173422016" duration="6829000" />
     </task>
     <servers />
   </component>
@@ -131,66 +183,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590753238350" />
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590739267279">
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591180063248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590739267279" />
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591180063248" />
     <state width="467" height="761" key="DebuggerActiveHint" timestamp="1590744976187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="467" height="761" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1590744976187" />
-    <state x="657" y="140" key="FileChooserDialogImpl" timestamp="1590727563982">
+    <state x="657" y="140" key="FileChooserDialogImpl" timestamp="1591176925174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="140" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590727563982" />
-    <state width="1867" height="252" key="GridCell.Tab.0.bottom" timestamp="1591022393530">
+    <state x="657" y="140" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591176925174" />
+    <state width="1867" height="377" key="GridCell.Tab.0.bottom" timestamp="1591190772212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393530" />
-    <state width="1867" height="252" key="GridCell.Tab.0.center" timestamp="1591022393530">
+    <state width="1867" height="377" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772212" />
+    <state width="1867" height="377" key="GridCell.Tab.0.center" timestamp="1591190772211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393530" />
-    <state width="1867" height="252" key="GridCell.Tab.0.left" timestamp="1591022393530">
+    <state width="1867" height="377" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772211" />
+    <state width="1867" height="377" key="GridCell.Tab.0.left" timestamp="1591190772211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393530" />
-    <state width="1867" height="252" key="GridCell.Tab.0.right" timestamp="1591022393530">
+    <state width="1867" height="377" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772211" />
+    <state width="1867" height="377" key="GridCell.Tab.0.right" timestamp="1591190772211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393530" />
-    <state width="1867" height="252" key="GridCell.Tab.1.bottom" timestamp="1591022393531">
+    <state width="1867" height="377" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772211" />
+    <state width="1867" height="377" key="GridCell.Tab.1.bottom" timestamp="1591190772212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393531" />
-    <state width="1867" height="252" key="GridCell.Tab.1.center" timestamp="1591022393530">
+    <state width="1867" height="377" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772212" />
+    <state width="1867" height="377" key="GridCell.Tab.1.center" timestamp="1591190772212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393530" />
-    <state width="1867" height="252" key="GridCell.Tab.1.left" timestamp="1591022393530">
+    <state width="1867" height="377" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772212" />
+    <state width="1867" height="377" key="GridCell.Tab.1.left" timestamp="1591190772212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393530" />
-    <state width="1867" height="252" key="GridCell.Tab.1.right" timestamp="1591022393530">
+    <state width="1867" height="377" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772212" />
+    <state width="1867" height="377" key="GridCell.Tab.1.right" timestamp="1591190772212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393530" />
-    <state width="1867" height="252" key="GridCell.Tab.2.bottom" timestamp="1591022393531">
+    <state width="1867" height="377" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772212" />
+    <state width="1867" height="347" key="GridCell.Tab.2.bottom" timestamp="1591190772201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393531" />
-    <state width="1867" height="252" key="GridCell.Tab.2.center" timestamp="1591022393531">
+    <state width="1867" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772201" />
+    <state width="1867" height="347" key="GridCell.Tab.2.center" timestamp="1591190772201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393531" />
-    <state width="1867" height="252" key="GridCell.Tab.2.left" timestamp="1591022393531">
+    <state width="1867" height="347" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772201" />
+    <state width="1867" height="347" key="GridCell.Tab.2.left" timestamp="1591190772201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393531" />
-    <state width="1867" height="252" key="GridCell.Tab.2.right" timestamp="1591022393531">
+    <state width="1867" height="347" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772201" />
+    <state width="1867" height="347" key="GridCell.Tab.2.right" timestamp="1591190772201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="252" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591022393531" />
+    <state width="1867" height="347" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591190772201" />
     <state x="312" y="0" key="SettingsEditor" timestamp="1590664631192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
